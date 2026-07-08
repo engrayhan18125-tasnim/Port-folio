@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.common-button{
+    background-color: #fd6e0a;
+    padding: 6px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+
+    .outline-button{
+    background-color: white;
+    padding: 6px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    cursor:  pointer;
+    }
+
+    .common-container{
+        max-width: 1200px;
+        margin: auto;
+    }
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+div ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+/* header{
+    background-color: rgb(235, 182, 114);
+
+} */
+ul li a{
+    text-decoration: none;
+}
+.logo-r{
+    color:#fd6e0a;
+}
+.hero-parrent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.left .p-1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.btn{
+    margin-top: 12px;
+}
+.hero-parrent-root{
+     background-color: #fff8f3; 
+
+}
+
+.main-about{
+    background-color: #fff8f3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 70px;
+    text-align: center;
+}
+
+.main-about p{
+    margin: 20px 0;
+}
+.sub-about{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.sub-about .box{
+    background-color: #f0e4db;
+    padding: 5px;
+    border-radius: 5px;
+}
+.what-i-do-parrnet{
+    margin: 65px auto;
+    text-align: center;
+}
+.card{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+}
+.card .box{
+    border: 1px solid #fd6e0a;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+
+}
+.card .box p{
+    color: #757575;
+    font-size: 15px;
+}
+.card .box h3{
+    margin: 10px 0;
+}
+
+.amazing-parent{
+    text-align: center;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+    gap: 12px;
+    grid-auto-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six";
+}
+.gallery img{
+    height:100% ;
+    width: 100%;
+    object-fit: cover; 
+    
+}
+#jamela{
+    margin-top: 20px;
+}
+.box-1{
+    
+    grid-area: one;
+}
+.box-2{
+     grid-area: two;
+
+}
+.box-3{
+     grid-area: three;
+
+}
+.box-4{
+     grid-area: four;
+
+}
+.box-5{
+     grid-area: five;
+
+}
+.box-6{
+     grid-area: six;
+
+}
+.footer{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 22px;
+    background-color:#f0e4db ;
+    border-radius: 8px;
+
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.form input,textarea{
+    display: block;
+    border: 0;
+    outline: none;
+    background-color: white;
+    padding: 9px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    width: 95%;
+}
+footer .footer-des p{
+    margin: 8px 0;
+    padding-bottom: 5px;
+}
+
+.font-icon{
+    color: #fd6e0a;
+    font-size: 23px;
+}
+ 

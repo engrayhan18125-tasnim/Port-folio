@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+     font-family: "Open Sans";
+}
+.common-button{
+    background-color: #fd6e0a;
+    padding: 6px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+
+    .outter-button{
+    background-color:white;
+    padding: 6px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+    }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 0;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+
+}
+ul li a{
+    text-decoration: none;
+}
+.logo{
+    font-weight: bold;
+    font-size: 35px;
+}
+.logo-r{
+    color: #fd6e0a;
+}
+.img img {
+    width: 100%;
+    height: auto;
+
+}
+.herro-parrent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    /* border: 1px solid bisque; */
+    background-color: #b6adad;
+}
+.herro-parrent .drsc p{
+    font-size: 12pxpx;
+    font-weight: 300;
+}
+.herro-parrent h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 12pxpx;
+}
+.button{
+    margin-top: 12pxpx;
+
+}
+body{
+    padding: 0 8%;
+}
