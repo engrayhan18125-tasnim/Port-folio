@@ -175,7 +175,7 @@ ul li a{
      grid-area: six;
 
 }
-.footer{
+/* .footer{
     text-align: center;
     margin-top: 70px;
     margin-bottom: 30px;
@@ -210,5 +210,143 @@ footer .footer-des p{
 .font-icon{
     color: #fd6e0a;
     font-size: 23px;
+} */
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 50px;
+
+    align-items: center;
+
+    margin: 80px auto;
+    padding: 60px;
+
+    background: #f8f8f8;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+/* Left Side */
+.footer-des h2,
+.contact-form h2{
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 18px;
+}
+
+.footer-des p{
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+/* Social Icons */
+
+.font-icon{
+    display: flex;
+    gap: 18px;
+}
+
+.font-icon a{
+    width: 48px;
+    height: 48px;
+    background: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fd6e0a;
+    text-decoration: none;
+    font-size: 22px;
+
+    transition: .3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.font-icon a:hover{
+    background: #fd6e0a;
+    color: white;
+    transform: translateY(-5px);
+}
+
+/* Form */
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 15px 18px;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 16px;
+
+    transition: .3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    border-color: #fd6e0a;
+    box-shadow: 0 0 8px rgba(253,110,10,.25);
+}
+
+/* Button */
+
+.common-button{
+    width: fit-content;
+
+    padding: 14px 30px;
+
+    background: #fd6e0a;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: .3s;
+}
+
+.common-button:hover{
+    background: #e55f00;
+    transform: translateY(-3px);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .footer{
+        padding: 35px 25px;
+        text-align: center;
+    }
+
+    .footer-des p{
+        margin: 0 auto 25px;
+    }
+
+    .font-icon{
+        justify-content: center;
+    }
+
+    .common-button{
+        width: 100%;
+    }
 }
  
